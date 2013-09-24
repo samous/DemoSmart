@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D701CC17F18BC3003EA255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CB17F18BC3003EA255 /* Foundation.framework */; };
+		D8D701CE17F18BC3003EA255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */; };
+		D8D701D017F18BC3003EA255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CF17F18BC3003EA255 /* UIKit.framework */; };
+		D8D701D617F18BC3003EA255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D701D417F18BC3003EA255 /* InfoPlist.strings */; };
+		D8D701D817F18BC3003EA255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D701D717F18BC3003EA255 /* main.m */; };
+		D8D701DC17F18BC3003EA255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D701DB17F18BC3003EA255 /* AppDelegate.m */; };
+		D8D701DE17F18BC3003EA255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D701DD17F18BC3003EA255 /* Images.xcassets */; };
+		D8D701E517F18BC3003EA255 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701E417F18BC3003EA255 /* XCTest.framework */; };
+		D8D701E617F18BC3003EA255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CB17F18BC3003EA255 /* Foundation.framework */; };
+		D8D701E717F18BC3003EA255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CF17F18BC3003EA255 /* UIKit.framework */; };
+		D8D701EF17F18BC3003EA255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D701ED17F18BC3003EA255 /* InfoPlist.strings */; };
+		D8D701F117F18BC3003EA255 /* DemoSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D701F017F18BC3003EA255 /* DemoSmartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D701E817F18BC3003EA255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D701C017F18BC3003EA255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D701C717F18BC3003EA255;
+			remoteInfo = DemoSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8D701C817F18BC3003EA255 /* DemoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D701CB17F18BC3003EA255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8D701CF17F18BC3003EA255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8D701D317F18BC3003EA255 /* DemoSmart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSmart-Info.plist"; sourceTree = "<group>"; };
+		D8D701D517F18BC3003EA255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D701D717F18BC3003EA255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D701D917F18BC3003EA255 /* DemoSmart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSmart-Prefix.pch"; sourceTree = "<group>"; };
+		D8D701DA17F18BC3003EA255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8D701DB17F18BC3003EA255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8D701DD17F18BC3003EA255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8D701E317F18BC3003EA255 /* DemoSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D701E417F18BC3003EA255 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8D701EC17F18BC3003EA255 /* DemoSmartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSmartTests-Info.plist"; sourceTree = "<group>"; };
+		D8D701EE17F18BC3003EA255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D701F017F18BC3003EA255 /* DemoSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSmartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D701C517F18BC3003EA255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701CE17F18BC3003EA255 /* CoreGraphics.framework in Frameworks */,
+				D8D701D017F18BC3003EA255 /* UIKit.framework in Frameworks */,
+				D8D701CC17F18BC3003EA255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D701E017F18BC3003EA255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701E517F18BC3003EA255 /* XCTest.framework in Frameworks */,
+				D8D701E717F18BC3003EA255 /* UIKit.framework in Frameworks */,
+				D8D701E617F18BC3003EA255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D701BF17F18BC3003EA255 = {
+			isa = PBXGroup;
+			children = (
+				D8D701D117F18BC3003EA255 /* DemoSmart */,
+				D8D701EA17F18BC3003EA255 /* DemoSmartTests */,
+				D8D701CA17F18BC3003EA255 /* Frameworks */,
+				D8D701C917F18BC3003EA255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D701C917F18BC3003EA255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701C817F18BC3003EA255 /* DemoSmart.app */,
+				D8D701E317F18BC3003EA255 /* DemoSmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D701CA17F18BC3003EA255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701CB17F18BC3003EA255 /* Foundation.framework */,
+				D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */,
+				D8D701CF17F18BC3003EA255 /* UIKit.framework */,
+				D8D701E417F18BC3003EA255 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D701D117F18BC3003EA255 /* DemoSmart */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701DA17F18BC3003EA255 /* AppDelegate.h */,
+				D8D701DB17F18BC3003EA255 /* AppDelegate.m */,
+				D8D701DD17F18BC3003EA255 /* Images.xcassets */,
+				D8D701D217F18BC3003EA255 /* Supporting Files */,
+			);
+			path = DemoSmart;
+			sourceTree = "<group>";
+		};
+		D8D701D217F18BC3003EA255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701D317F18BC3003EA255 /* DemoSmart-Info.plist */,
+				D8D701D417F18BC3003EA255 /* InfoPlist.strings */,
+				D8D701D717F18BC3003EA255 /* main.m */,
+				D8D701D917F18BC3003EA255 /* DemoSmart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D701EA17F18BC3003EA255 /* DemoSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701F017F18BC3003EA255 /* DemoSmartTests.m */,
+				D8D701EB17F18BC3003EA255 /* Supporting Files */,
+			);
+			path = DemoSmartTests;
+			sourceTree = "<group>";
+		};
+		D8D701EB17F18BC3003EA255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D701EC17F18BC3003EA255 /* DemoSmartTests-Info.plist */,
+				D8D701ED17F18BC3003EA255 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D701C717F18BC3003EA255 /* DemoSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D701F417F18BC3003EA255 /* Build configuration list for PBXNativeTarget "DemoSmart" */;
+			buildPhases = (
+				D8D701C417F18BC3003EA255 /* Sources */,
+				D8D701C517F18BC3003EA255 /* Frameworks */,
+				D8D701C617F18BC3003EA255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoSmart;
+			productName = DemoSmart;
+			productReference = D8D701C817F18BC3003EA255 /* DemoSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D701E217F18BC3003EA255 /* DemoSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D701F717F18BC3003EA255 /* Build configuration list for PBXNativeTarget "DemoSmartTests" */;
+			buildPhases = (
+				D8D701DF17F18BC3003EA255 /* Sources */,
+				D8D701E017F18BC3003EA255 /* Frameworks */,
+				D8D701E117F18BC3003EA255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D701E917F18BC3003EA255 /* PBXTargetDependency */,
+			);
+			name = DemoSmartTests;
+			productName = DemoSmartTests;
+			productReference = D8D701E317F18BC3003EA255 /* DemoSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D701C017F18BC3003EA255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mobvalue;
+				TargetAttributes = {
+					D8D701E217F18BC3003EA255 = {
+						TestTargetID = D8D701C717F18BC3003EA255;
+					};
+				};
+			};
+			buildConfigurationList = D8D701C317F18BC3003EA255 /* Build configuration list for PBXProject "DemoSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8D701BF17F18BC3003EA255;
+			productRefGroup = D8D701C917F18BC3003EA255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D701C717F18BC3003EA255 /* DemoSmart */,
+				D8D701E217F18BC3003EA255 /* DemoSmartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D701C617F18BC3003EA255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701D617F18BC3003EA255 /* InfoPlist.strings in Resources */,
+				D8D701DE17F18BC3003EA255 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D701E117F18BC3003EA255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701EF17F18BC3003EA255 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D701C417F18BC3003EA255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701DC17F18BC3003EA255 /* AppDelegate.m in Sources */,
+				D8D701D817F18BC3003EA255 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D701DF17F18BC3003EA255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D701F117F18BC3003EA255 /* DemoSmartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D701E917F18BC3003EA255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D701C717F18BC3003EA255 /* DemoSmart */;
+			targetProxy = D8D701E817F18BC3003EA255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D701D417F18BC3003EA255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D701D517F18BC3003EA255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D701ED17F18BC3003EA255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D701EE17F18BC3003EA255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D701F217F18BC3003EA255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8D701F317F18BC3003EA255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D701F517F18BC3003EA255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
+				INFOPLIST_FILE = "DemoSmart/DemoSmart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8D701F617F18BC3003EA255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
+				INFOPLIST_FILE = "DemoSmart/DemoSmart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8D701F817F18BC3003EA255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSmart.app/DemoSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoSmartTests/DemoSmartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8D701F917F18BC3003EA255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSmart.app/DemoSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
+				INFOPLIST_FILE = "DemoSmartTests/DemoSmartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D701C317F18BC3003EA255 /* Build configuration list for PBXProject "DemoSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D701F217F18BC3003EA255 /* Debug */,
+				D8D701F317F18BC3003EA255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D701F417F18BC3003EA255 /* Build configuration list for PBXNativeTarget "DemoSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D701F517F18BC3003EA255 /* Debug */,
+				D8D701F617F18BC3003EA255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8D701F717F18BC3003EA255 /* Build configuration list for PBXNativeTarget "DemoSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D701F817F18BC3003EA255 /* Debug */,
+				D8D701F917F18BC3003EA255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D701C017F18BC3003EA255 /* Project object */;
+}
