@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  ViewController.h
 //  DemoSmart
 //
 //  Created by Samuel on 24/09/13.
@@ -7,14 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "SmartAdServerView.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [SmartAdServerView setSiteID:51901 baseURL:@"http://mobile.smartadserver.com"];
+	[SmartAdServerView enableLogging];
+    
+    ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+	self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+	self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -27,7 +35,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

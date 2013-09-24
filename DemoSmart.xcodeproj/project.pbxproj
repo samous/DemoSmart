@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8619FA317F18E8B0013B99E /* libSmartAdServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FA117F18E8B0013B99E /* libSmartAdServer.a */; };
+		D8619FA417F18E8B0013B99E /* sas.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8619FA217F18E8B0013B99E /* sas.bundle */; };
+		D8619FA617F18ED00013B99E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FA517F18ED00013B99E /* AdSupport.framework */; };
+		D8619FA817F18EDB0013B99E /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FA717F18EDB0013B99E /* EventKitUI.framework */; };
+		D8619FAA17F18EE30013B99E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FA917F18EE30013B99E /* CoreMotion.framework */; };
+		D8619FAC17F18EE90013B99E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FAB17F18EE90013B99E /* MediaPlayer.framework */; };
+		D8619FAE17F18EF30013B99E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FAD17F18EF30013B99E /* SystemConfiguration.framework */; };
+		D8619FB017F18EFB0013B99E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FAF17F18EFB0013B99E /* CoreLocation.framework */; };
+		D8619FB217F18F060013B99E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FB117F18F060013B99E /* QuartzCore.framework */; };
+		D8619FB417F191260013B99E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8619FB317F191260013B99E /* EventKit.framework */; };
 		D8D701CC17F18BC3003EA255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CB17F18BC3003EA255 /* Foundation.framework */; };
 		D8D701CE17F18BC3003EA255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */; };
 		D8D701D017F18BC3003EA255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CF17F18BC3003EA255 /* UIKit.framework */; };
@@ -34,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8619F9A17F18E8B0013B99E /* SASAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASAdView.h; sourceTree = "<group>"; };
+		D8619F9B17F18E8B0013B99E /* SASAdViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASAdViewDelegate.h; sourceTree = "<group>"; };
+		D8619F9C17F18E8B0013B99E /* SASBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASBannerView.h; sourceTree = "<group>"; };
+		D8619F9D17F18E8B0013B99E /* SASInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASInterstitialView.h; sourceTree = "<group>"; };
+		D8619F9E17F18E8B0013B99E /* SmartAdServerAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAdServerAd.h; sourceTree = "<group>"; };
+		D8619F9F17F18E8B0013B99E /* SmartAdServerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAdServerView.h; sourceTree = "<group>"; };
+		D8619FA017F18E8B0013B99E /* SmartAdServerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAdServerViewDelegate.h; sourceTree = "<group>"; };
+		D8619FA117F18E8B0013B99E /* libSmartAdServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSmartAdServer.a; sourceTree = "<group>"; };
+		D8619FA217F18E8B0013B99E /* sas.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sas.bundle; sourceTree = "<group>"; };
+		D8619FA517F18ED00013B99E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D8619FA717F18EDB0013B99E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		D8619FA917F18EE30013B99E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D8619FAB17F18EE90013B99E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D8619FAD17F18EF30013B99E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D8619FAF17F18EFB0013B99E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8619FB117F18F060013B99E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8619FB317F191260013B99E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		D8D701C817F18BC3003EA255 /* DemoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D701CB17F18BC3003EA255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +87,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D701CE17F18BC3003EA255 /* CoreGraphics.framework in Frameworks */,
+				D8619FB417F191260013B99E /* EventKit.framework in Frameworks */,
+				D8619FB217F18F060013B99E /* QuartzCore.framework in Frameworks */,
+				D8619FB017F18EFB0013B99E /* CoreLocation.framework in Frameworks */,
+				D8619FAE17F18EF30013B99E /* SystemConfiguration.framework in Frameworks */,
+				D8619FAC17F18EE90013B99E /* MediaPlayer.framework in Frameworks */,
+				D8619FAA17F18EE30013B99E /* CoreMotion.framework in Frameworks */,
+				D8619FA817F18EDB0013B99E /* EventKitUI.framework in Frameworks */,
 				D8D701D017F18BC3003EA255 /* UIKit.framework in Frameworks */,
+				D8619FA617F18ED00013B99E /* AdSupport.framework in Frameworks */,
+				D8D701CE17F18BC3003EA255 /* CoreGraphics.framework in Frameworks */,
 				D8D701CC17F18BC3003EA255 /* Foundation.framework in Frameworks */,
+				D8619FA317F18E8B0013B99E /* libSmartAdServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +115,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8619F9817F18E8B0013B99E /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				D8619F9917F18E8B0013B99E /* headers */,
+				D8619FA117F18E8B0013B99E /* libSmartAdServer.a */,
+				D8619FA217F18E8B0013B99E /* sas.bundle */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		D8619F9917F18E8B0013B99E /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				D8619F9A17F18E8B0013B99E /* SASAdView.h */,
+				D8619F9B17F18E8B0013B99E /* SASAdViewDelegate.h */,
+				D8619F9C17F18E8B0013B99E /* SASBannerView.h */,
+				D8619F9D17F18E8B0013B99E /* SASInterstitialView.h */,
+				D8619F9E17F18E8B0013B99E /* SmartAdServerAd.h */,
+				D8619F9F17F18E8B0013B99E /* SmartAdServerView.h */,
+				D8619FA017F18E8B0013B99E /* SmartAdServerViewDelegate.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
 		D8D701BF17F18BC3003EA255 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +161,17 @@
 		D8D701CA17F18BC3003EA255 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8619FA517F18ED00013B99E /* AdSupport.framework */,
+				D8619FA717F18EDB0013B99E /* EventKitUI.framework */,
+				D8619FB317F191260013B99E /* EventKit.framework */,
+				D8619FA917F18EE30013B99E /* CoreMotion.framework */,
+				D8619FAB17F18EE90013B99E /* MediaPlayer.framework */,
+				D8619FAD17F18EF30013B99E /* SystemConfiguration.framework */,
+				D8619FAF17F18EFB0013B99E /* CoreLocation.framework */,
+				D8619FB117F18F060013B99E /* QuartzCore.framework */,
+				D8D701CF17F18BC3003EA255 /* UIKit.framework */,
 				D8D701CB17F18BC3003EA255 /* Foundation.framework */,
 				D8D701CD17F18BC3003EA255 /* CoreGraphics.framework */,
-				D8D701CF17F18BC3003EA255 /* UIKit.framework */,
 				D8D701E417F18BC3003EA255 /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -114,11 +182,12 @@
 			children = (
 				D8D701DA17F18BC3003EA255 /* AppDelegate.h */,
 				D8D701DB17F18BC3003EA255 /* AppDelegate.m */,
-				D8D701DD17F18BC3003EA255 /* Images.xcassets */,
-				D8D701D217F18BC3003EA255 /* Supporting Files */,
 				D8D701FC17F18C06003EA255 /* ViewController.h */,
 				D8D701FD17F18C06003EA255 /* ViewController.m */,
 				D8D701FE17F18C06003EA255 /* ViewController.xib */,
+				D8D701DD17F18BC3003EA255 /* Images.xcassets */,
+				D8619F9817F18E8B0013B99E /* sdk */,
+				D8D701D217F18BC3003EA255 /* Supporting Files */,
 			);
 			path = DemoSmart;
 			sourceTree = "<group>";
@@ -228,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D701D617F18BC3003EA255 /* InfoPlist.strings in Resources */,
+				D8619FA417F18E8B0013B99E /* sas.bundle in Resources */,
 				D8D7020017F18C06003EA255 /* ViewController.xib in Resources */,
 				D8D701DE17F18BC3003EA255 /* Images.xcassets in Resources */,
 			);
@@ -374,6 +444,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
 				INFOPLIST_FILE = "DemoSmart/DemoSmart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/inventaire/Documents/iOS/example/example/sdk,
+					/Users/inventaire/Documents/iOS/DemoSmart/DemoSmart/sdk,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +463,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoSmart/DemoSmart-Prefix.pch";
 				INFOPLIST_FILE = "DemoSmart/DemoSmart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/inventaire/Documents/iOS/example/example/sdk,
+					/Users/inventaire/Documents/iOS/DemoSmart/DemoSmart/sdk,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +535,7 @@
 				D8D701F617F18BC3003EA255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D701F717F18BC3003EA255 /* Build configuration list for PBXNativeTarget "DemoSmartTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +544,7 @@
 				D8D701F917F18BC3003EA255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

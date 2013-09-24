@@ -6,8 +6,15 @@
 //  Copyright (c) 2013 Mobvalue. All rights reserved.
 //
 
+#import "SASInterstitialView.h"
+
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<SASAdViewDelegate>
+{
+    SASInterstitialView *_interstitial;
+}
+
+@property (nonatomic, retain) SASInterstitialView *myInterstitial;
 
 @end

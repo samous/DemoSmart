@@ -14,19 +14,18 @@
 
 @implementation ViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+	// Do any additional setup after loading the view, typically from a nib.
+    
+    _interstitial = [[SASInterstitialView alloc] initWithFrame:self.navigationController.view.bounds loader:SASLoaderActivityIndicatorStyleBlack hideStatusBar:YES];
+    
+    _interstitial.delegate = self;
+    
+    [_interstitial loadFormatId:13534 pageId:@"374408" master:YES target:nil];
+    
+    [self.navigationController.view addSubview:_interstitial];
 }
 
 - (void)didReceiveMemoryWarning
