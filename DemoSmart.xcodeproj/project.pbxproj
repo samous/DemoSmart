@@ -19,6 +19,8 @@
 		D8D701E717F18BC3003EA255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D701CF17F18BC3003EA255 /* UIKit.framework */; };
 		D8D701EF17F18BC3003EA255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D701ED17F18BC3003EA255 /* InfoPlist.strings */; };
 		D8D701F117F18BC3003EA255 /* DemoSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D701F017F18BC3003EA255 /* DemoSmartTests.m */; };
+		D8D701FF17F18C06003EA255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D701FD17F18C06003EA255 /* ViewController.m */; };
+		D8D7020017F18C06003EA255 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8D701FE17F18C06003EA255 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D8D701EC17F18BC3003EA255 /* DemoSmartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSmartTests-Info.plist"; sourceTree = "<group>"; };
 		D8D701EE17F18BC3003EA255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8D701F017F18BC3003EA255 /* DemoSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSmartTests.m; sourceTree = "<group>"; };
+		D8D701FC17F18C06003EA255 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8D701FD17F18C06003EA255 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8D701FE17F18C06003EA255 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				D8D701DB17F18BC3003EA255 /* AppDelegate.m */,
 				D8D701DD17F18BC3003EA255 /* Images.xcassets */,
 				D8D701D217F18BC3003EA255 /* Supporting Files */,
+				D8D701FC17F18C06003EA255 /* ViewController.h */,
+				D8D701FD17F18C06003EA255 /* ViewController.m */,
+				D8D701FE17F18C06003EA255 /* ViewController.xib */,
 			);
 			path = DemoSmart;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D701D617F18BC3003EA255 /* InfoPlist.strings in Resources */,
+				D8D7020017F18C06003EA255 /* ViewController.xib in Resources */,
 				D8D701DE17F18BC3003EA255 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D701FF17F18C06003EA255 /* ViewController.m in Sources */,
 				D8D701DC17F18BC3003EA255 /* AppDelegate.m in Sources */,
 				D8D701D817F18BC3003EA255 /* main.m in Sources */,
 			);
